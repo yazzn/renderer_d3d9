@@ -32,4 +32,4 @@ RenderListPtr render_list;
 
   device->EndScene(...);
   device->Present(...);
-}```
+}
