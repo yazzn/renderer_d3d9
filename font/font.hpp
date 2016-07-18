@@ -11,14 +11,14 @@
 class Renderer;
 class RenderList;
 
-enum FontFlags
+enum FontFlags : std::uint8_t
 {
 	FONT_DEFAULT      = 0 << 0,
 	FONT_BOLD         = 1 << 0,
 	FONT_ITALIC       = 1 << 1
 };
 
-enum TextFlags
+enum TextFlags : std::uint8_t
 {
 	TEXT_LEFT         = 0 << 0,
 	TEXT_RIGHT        = 1 << 1,
